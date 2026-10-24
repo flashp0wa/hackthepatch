@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>hackthepatch · who do you need?</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-row">
+      <div>
+        <h1>hackthepatch</h1>
+        <p class="tagline">"Who do you need" beats "who is like you". LinkedIn in, introductions out.</p>
+      </div>
+      <div id="auth-box"></div>
+    </div>
+    <nav>
+      <button data-tab="event">Event</button>
+      <button data-tab="me">My profile</button>
+      <button data-tab="room" class="active">Live room graph</button>
+      <button data-tab="matches">Who do you need</button>
+      <button data-tab="ask">Ask the room</button>
+    </nav>
+  </header>
+
+  <main>
+    <aside id="attendees">
+      <h2>Attendees <span id="attendee-count" class="pill">0</span></h2>
+      <details open>
+        <summary>Add an attendee from profile text</summary>
+        <form id="form-text">
+          <input id="text-name" placeholder="Name" required>
+          <textarea id="text-about" rows="5" placeholder="About section, experience, anything from the profile" required></textarea>
+          <button type="submit">Extract with LLM</button>
+        </form>
+      </details>
+      <div class="row">
+        <button id="btn-reset" class="secondary danger">Reset</button>
+      </div>
+      <ul id="attendee-list"></ul>
+    </aside>
+
+    <section id="tab-event" class="tab">
+      <div class="panel-head event-head">
+        <div><h2 id="event-name">Keynotes</h2><p class="hint">One day, six keynotes. Press the button and your LinkedIn profile is matched against the agenda.</p></div>
+        <button id="btn-interests">Interests</button>
+      </div>
+      <p id="interests-note" class="hint"></p>
+      <div id="agenda" class="cards"></div>
+    </section>
+
+    <section id="tab-me" class="tab">
+      <div class="panel-head">
+        <h2>My profile</h2>
+        <p class="hint">Sign in with LinkedIn, your profile fills itself, then describe what you are working on. The LLM reads out pain points and the room is searched for people who can unblock you.</p>
+      </div>
+      <div id="me-signed-out" class="card muted">
+        <p>Not signed in.</p>
+        <div class="row">
+          <a id="btn-login-big" class="button" href="/auth/login">Sign in with LinkedIn</a>
+          <form id="form-dev-login" class="row hidden"><input id="dev-name" placeholder="Name (dev login)" required><button type="submit" class="secondary">Dev sign in</button></form>
+        </div>
+      </div>
+      <div id="me-signed-in" class="hidden">
+        <div class="me-grid">
+          <div class="card" id="me-card"></div>
+          <form class="card hidden" id="me-edit">
+            <h4>Edit profile</h4>
+            <label>Name<input name="name" required></label>
+            <label>I am here as<select name="role">
+              <option value="connecting">Building connections</option><option value="founder">Founder</option>
+              <option value="investor">Investor</option><option value="hiring">Hiring</option><option value="open_to_work">Open to work</option>
+            </select></label>
+            <label>What I want from the room<textarea name="statement" rows="2" placeholder="What you invest in, the roles you are hiring for or seeking, or what you are building"></textarea></label>
+            <label>Headline<input name="headline" placeholder="Role, company, one line"></label>
+            <label>Summary<textarea name="summary" rows="2"></textarea></label>
+            <label>What I'm building<textarea name="building" rows="2"></textarea></label>
+            <label>LinkedIn URL<input name="url" type="url" placeholder="https://www.linkedin.com/in/..."></label>
+            <div class="label">Technologies</div><div class="tags editable" data-field="technologies" data-cls=""></div>
+            <div class="label">Interests</div><div class="tags editable" data-field="interests" data-cls="link"></div>
+            <div class="label">Can offer</div><div class="tags editable" data-field="can_offer" data-cls="fill"></div>
+            <div class="label">Looking for</div><div class="tags editable" data-field="looking_for" data-cls="need"></div>
+            <p class="hint">× removes a tag, Enter or comma adds one. Nothing is saved until you press Save.</p>
+            <div class="row"><button type="submit">Save</button><button type="button" id="me-cancel" class="secondary">Cancel</button></div>
+          </form>
+        </div>
+        <h3>Active project</h3>
+        <form id="form-project">
+          <textarea id="project-text" rows="5" placeholder="What are you building right now? Where are you stuck? What would you ship if you had the right person next to you?" required></textarea>
+          <div class="row"><button type="submit">Analyse and find connections</button><span id="project-updated" class="hint"></span></div>
+        </form>
+        <div id="project-result" class="hidden">
+          <div class="me-grid">
+            <div class="card"><h4>Pain points</h4><ul id="pain-points" class="plain"></ul></div>
+            <div class="card"><h4>Needs</h4><div id="project-needs"></div><h4 class="spaced">Worth meeting</h4><ul id="connection-ideas" class="plain"></ul></div>
+          </div>
+          <h3>Possible connections in the room</h3>
+          <div id="connections" class="cards"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tab-room" class="tab active">
+      <div class="panel-head">
+        <h2>Live room graph</h2>
+        <p class="hint">Colour = cluster. Large nodes with a white ring are <b>bridges</b>: people connected to several clusters. Click a node to see who they need.</p>
+      </div>
+      <div id="graph"></div>
+      <div id="bridges" class="cards"></div>
+    </section>
+
+    <section id="tab-matches" class="tab">
+      <div class="panel-head">
+        <h2>Who do you need</h2>
+        <p class="hint">Complementary matching: pairs on gaps, not similarity. Pick an attendee on the left.</p>
+      </div>
+      <div id="person-card" class="card muted">No attendee selected.</div>
+      <div id="match-list" class="cards"></div>
+      <h3>Inbox: questions routed to this person</h3>
+      <div id="inbox" class="cards"></div>
+    </section>
+
+    <section id="tab-ask" class="tab">
+      <div class="panel-head">
+        <h2>Ask the room</h2>
+        <p class="hint">Each question is routed to the three people whose profiles fit best and lands in their inbox.</p>
+      </div>
+      <form id="form-ask" class="row">
+        <select id="ask-as"><option value="">Asking as: anonymous</option></select>
+        <input id="ask-text" placeholder='e.g. "anyone used Temporal in production?"' required>
+        <button type="submit">Route it</button>
+      </form>
+      <div id="question-feed" class="cards"></div>
+    </section>
+  </main>
+
+  <div id="toast"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

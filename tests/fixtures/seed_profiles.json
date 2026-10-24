@@ -1,0 +1,539 @@
+[
+  {
+    "name": "Maya Okonkwo",
+    "headline": "Backend engineer, ex-Lattice Systems; building a scheduling API on the side",
+    "url": "https://www.linkedin.com/in/maya-okonkwo-demo",
+    "role": "founder",
+    "statement": "Building a scheduling API for freelancers; it has no UI yet. I need a product designer to pair with and someone who knows how to market to freelancers.",
+    "summary": "Backend engineer who ships APIs and queues, with a half-finished side project for freelancer scheduling.",
+    "building": "A scheduling API for freelancers that has no UI yet.",
+    "technologies": [
+      "python",
+      "fastapi",
+      "postgresql",
+      "redis",
+      "temporal",
+      "docker"
+    ],
+    "interests": [
+      "developer tools",
+      "freelance economy",
+      "workflow engines"
+    ],
+    "can_offer": [
+      "backend engineering",
+      "api design",
+      "data modeling"
+    ],
+    "looking_for": [
+      "product design",
+      "frontend engineering",
+      "marketing"
+    ],
+    "companies": [
+      "Lattice Systems",
+      "Kiln Robotics"
+    ],
+    "schools": [
+      "University of Waterloo"
+    ]
+  },
+  {
+    "name": "Daniel Reyes",
+    "headline": "Product designer at Fernwood; previously design lead at a seed-stage fintech",
+    "url": "https://www.linkedin.com/in/daniel-reyes-demo",
+    "role": "connecting",
+    "statement": "Here to meet engineers with rough prototypes that need a designer's eye.",
+    "summary": "Product designer who turns rough engineering prototypes into usable products.",
+    "building": "A design system for small teams, looking for an engineer to pair with.",
+    "technologies": [
+      "figma",
+      "html",
+      "css",
+      "react",
+      "framer"
+    ],
+    "interests": [
+      "design systems",
+      "accessibility",
+      "fintech"
+    ],
+    "can_offer": [
+      "product design",
+      "ux research",
+      "prototyping",
+      "frontend engineering"
+    ],
+    "looking_for": [
+      "backend engineering",
+      "api design"
+    ],
+    "companies": [
+      "Fernwood",
+      "Brightline Pay"
+    ],
+    "schools": [
+      "Rhode Island School of Design"
+    ]
+  },
+  {
+    "name": "Priya Natarajan",
+    "headline": "ML engineer at Orbit Labs, retrieval and evaluation for LLM products",
+    "url": "https://www.linkedin.com/in/priya-natarajan-demo",
+    "role": "connecting",
+    "statement": "Want to compare notes on RAG evaluation and find people who will use an open eval harness.",
+    "summary": "ML engineer focused on retrieval, evals and fine-tuning for production LLM features.",
+    "building": "An open eval harness for RAG pipelines.",
+    "technologies": [
+      "python",
+      "pytorch",
+      "langchain",
+      "vector databases",
+      "kubernetes",
+      "mlflow"
+    ],
+    "interests": [
+      "llm evaluation",
+      "retrieval",
+      "open source"
+    ],
+    "can_offer": [
+      "machine learning",
+      "llm engineering",
+      "evaluation design"
+    ],
+    "looking_for": [
+      "frontend engineering",
+      "technical writing"
+    ],
+    "companies": [
+      "Orbit Labs",
+      "Northwind Analytics"
+    ],
+    "schools": [
+      "Indian Institute of Technology Madras"
+    ]
+  },
+  {
+    "name": "Tomás Varga",
+    "headline": "Platform engineer, Kubernetes and GitOps at Helixgrid",
+    "url": "https://www.linkedin.com/in/tomas-varga-demo",
+    "role": "connecting",
+    "statement": "Looking for people running AI agents on Kubernetes who want to talk policy and isolation.",
+    "summary": "Platform engineer running multi-tenant Kubernetes with GitOps and strong observability.",
+    "building": "A policy engine for AI agent workloads on Kubernetes.",
+    "technologies": [
+      "kubernetes",
+      "go",
+      "flux",
+      "prometheus",
+      "terraform",
+      "istio"
+    ],
+    "interests": [
+      "platform engineering",
+      "ai agent security",
+      "observability"
+    ],
+    "can_offer": [
+      "devops",
+      "kubernetes",
+      "infrastructure",
+      "security"
+    ],
+    "looking_for": [
+      "machine learning",
+      "product management",
+      "go-to-market"
+    ],
+    "companies": [
+      "Helixgrid",
+      "Kiln Robotics"
+    ],
+    "schools": [
+      "Budapest University of Technology"
+    ]
+  },
+  {
+    "name": "Hannah Lindqvist",
+    "headline": "Founder, Tidewater Health; former PM at Brightline Pay",
+    "url": "https://www.linkedin.com/in/hannah-lindqvist-demo",
+    "role": "founder",
+    "statement": "Tidewater Health is a remote monitoring app for cardiac rehab. I am looking for a technical cofounder with backend or mobile experience and I am raising a pre-seed round.",
+    "summary": "Product manager turned founder working on remote patient monitoring.",
+    "building": "Tidewater Health, a remote monitoring app for cardiac rehab patients, looking for a technical cofounder.",
+    "technologies": [
+      "sql",
+      "figma",
+      "notion",
+      "mixpanel"
+    ],
+    "interests": [
+      "digital health",
+      "fintech",
+      "regulated products"
+    ],
+    "can_offer": [
+      "product management",
+      "go-to-market",
+      "fundraising",
+      "customer discovery"
+    ],
+    "looking_for": [
+      "backend engineering",
+      "machine learning",
+      "mobile development",
+      "cofounder",
+      "funding"
+    ],
+    "companies": [
+      "Tidewater Health",
+      "Brightline Pay"
+    ],
+    "schools": [
+      "Lund University"
+    ]
+  },
+  {
+    "name": "Kenji Watanabe",
+    "headline": "iOS engineer at Nimbus Maps",
+    "url": "https://www.linkedin.com/in/kenji-watanabe-demo",
+    "role": "connecting",
+    "statement": "Curious about on-device ML; happy to talk Swift and App Store launches.",
+    "summary": "Mobile engineer with a decade of Swift, now curious about on-device ML.",
+    "building": "A running app that coaches with on-device models.",
+    "technologies": [
+      "swift",
+      "swiftui",
+      "coreml",
+      "combine",
+      "sqlite"
+    ],
+    "interests": [
+      "on-device ml",
+      "fitness",
+      "maps"
+    ],
+    "can_offer": [
+      "mobile development",
+      "ios",
+      "app store launches"
+    ],
+    "looking_for": [
+      "machine learning",
+      "product design"
+    ],
+    "companies": [
+      "Nimbus Maps",
+      "Pebble Studio"
+    ],
+    "schools": [
+      "Keio University"
+    ]
+  },
+  {
+    "name": "Amara Diallo",
+    "headline": "Data engineer at Northwind Analytics, streaming pipelines",
+    "url": "https://www.linkedin.com/in/amara-diallo-demo",
+    "role": "connecting",
+    "statement": "Want to meet people who care about data contracts and streaming data quality.",
+    "summary": "Data engineer who builds streaming and batch pipelines and cares about data quality.",
+    "building": "A lightweight data-contract checker for Kafka topics.",
+    "technologies": [
+      "python",
+      "kafka",
+      "spark",
+      "dbt",
+      "airflow",
+      "snowflake",
+      "temporal"
+    ],
+    "interests": [
+      "data quality",
+      "streaming",
+      "climate data"
+    ],
+    "can_offer": [
+      "data engineering",
+      "pipelines",
+      "sql"
+    ],
+    "looking_for": [
+      "frontend engineering",
+      "product design"
+    ],
+    "companies": [
+      "Northwind Analytics",
+      "Meridian Climate"
+    ],
+    "schools": [
+      "Université Cheikh Anta Diop"
+    ]
+  },
+  {
+    "name": "Lucas Ferreira",
+    "headline": "Growth marketer, B2B SaaS; ran marketing at Fernwood",
+    "url": "https://www.linkedin.com/in/lucas-ferreira-demo",
+    "role": "open_to_work",
+    "statement": "Open to a head of growth or growth marketing role at a developer-tools company, remote or Lisbon.",
+    "summary": "Growth and content marketer for developer-facing SaaS products.",
+    "building": "A newsletter on developer tools go-to-market.",
+    "technologies": [
+      "hubspot",
+      "google analytics",
+      "webflow",
+      "sql"
+    ],
+    "interests": [
+      "developer tools",
+      "content marketing",
+      "community"
+    ],
+    "can_offer": [
+      "marketing",
+      "go-to-market",
+      "copywriting",
+      "community building"
+    ],
+    "looking_for": [
+      "head of growth",
+      "growth marketing",
+      "developer marketing"
+    ],
+    "companies": [
+      "Fernwood",
+      "Pebble Studio"
+    ],
+    "schools": [
+      "Universidade de São Paulo"
+    ]
+  },
+  {
+    "name": "Sofia Bianchi",
+    "headline": "Security engineer at Vantage Cloud, identity and access",
+    "url": "https://www.linkedin.com/in/sofia-bianchi-demo",
+    "role": "connecting",
+    "statement": "Here for anyone giving AI agents workload identities; happy to review threat models.",
+    "summary": "Security engineer specialising in workload identity, mTLS and policy enforcement.",
+    "building": "An admission controller that gives AI agents SPIFFE identities.",
+    "technologies": [
+      "go",
+      "spiffe",
+      "kubernetes",
+      "opa",
+      "rust",
+      "istio"
+    ],
+    "interests": [
+      "ai agent security",
+      "zero trust",
+      "open source"
+    ],
+    "can_offer": [
+      "security",
+      "identity",
+      "kubernetes"
+    ],
+    "looking_for": [
+      "product management",
+      "technical writing"
+    ],
+    "companies": [
+      "Vantage Cloud"
+    ],
+    "schools": [
+      "Politecnico di Milano"
+    ]
+  },
+  {
+    "name": "Ethan Brooks",
+    "headline": "Frontend engineer at Pebble Studio, React and WebGL",
+    "url": "https://www.linkedin.com/in/ethan-brooks-demo",
+    "role": "open_to_work",
+    "statement": "Open to senior frontend roles on data-heavy products, ideally visualisation or developer tools.",
+    "summary": "Frontend engineer who likes data-heavy interfaces and visualisation.",
+    "building": "A WebGL graph explorer for large networks.",
+    "technologies": [
+      "typescript",
+      "react",
+      "webgl",
+      "d3",
+      "next.js",
+      "graphql"
+    ],
+    "interests": [
+      "data visualisation",
+      "developer tools",
+      "generative art"
+    ],
+    "can_offer": [
+      "frontend engineering",
+      "data visualisation",
+      "prototyping"
+    ],
+    "looking_for": [
+      "senior frontend engineer",
+      "frontend engineer",
+      "data visualisation engineer"
+    ],
+    "companies": [
+      "Pebble Studio"
+    ],
+    "schools": [
+      "University of Waterloo"
+    ]
+  },
+  {
+    "name": "Nadia Haddad",
+    "headline": "Research scientist, reinforcement learning at Orbit Labs",
+    "url": "https://www.linkedin.com/in/nadia-haddad-demo",
+    "role": "connecting",
+    "statement": "Looking for infrastructure people to help run a benchmark for tool-using agents at scale.",
+    "summary": "RL researcher moving toward applied agent systems.",
+    "building": "A benchmark for tool-using agents.",
+    "technologies": [
+      "python",
+      "pytorch",
+      "jax",
+      "ray",
+      "gym"
+    ],
+    "interests": [
+      "reinforcement learning",
+      "ai agents",
+      "generative art"
+    ],
+    "can_offer": [
+      "machine learning",
+      "research",
+      "experiment design"
+    ],
+    "looking_for": [
+      "infrastructure",
+      "frontend engineering"
+    ],
+    "companies": [
+      "Orbit Labs"
+    ],
+    "schools": [
+      "ETH Zürich"
+    ]
+  },
+  {
+    "name": "Oliver Schmidt",
+    "headline": "Fintech engineer at Brightline Pay, payments and ledgers",
+    "url": "https://www.linkedin.com/in/oliver-schmidt-demo",
+    "role": "connecting",
+    "statement": "Want to find a designer and a marketer for an open-source ledger library, and talk to anyone doing payments in Rust.",
+    "summary": "Backend engineer for payment rails and double-entry ledgers.",
+    "building": "An open-source ledger library in Rust.",
+    "technologies": [
+      "rust",
+      "postgresql",
+      "kafka",
+      "grpc",
+      "temporal"
+    ],
+    "interests": [
+      "fintech",
+      "payments",
+      "open source"
+    ],
+    "can_offer": [
+      "backend engineering",
+      "payments",
+      "rust"
+    ],
+    "looking_for": [
+      "product design",
+      "marketing"
+    ],
+    "companies": [
+      "Brightline Pay"
+    ],
+    "schools": [
+      "TU Berlin"
+    ]
+  },
+  {
+    "name": "Grace Mwangi",
+    "headline": "Climate data scientist at Meridian Climate",
+    "url": "https://www.linkedin.com/in/grace-mwangi-demo",
+    "role": "founder",
+    "statement": "Building a dashboard that estimates building emissions from public data. Looking for a frontend engineer and early climate-focused funding.",
+    "summary": "Data scientist modelling emissions and energy use from satellite and sensor data.",
+    "building": "A dashboard that estimates building emissions from public data.",
+    "technologies": [
+      "python",
+      "pandas",
+      "scikit-learn",
+      "geopandas",
+      "postgis",
+      "dbt"
+    ],
+    "interests": [
+      "climate data",
+      "geospatial",
+      "public data"
+    ],
+    "can_offer": [
+      "data science",
+      "geospatial analysis",
+      "sql"
+    ],
+    "looking_for": [
+      "frontend engineering",
+      "data visualisation",
+      "funding"
+    ],
+    "companies": [
+      "Meridian Climate",
+      "Lattice Systems"
+    ],
+    "schools": [
+      "University of Nairobi"
+    ]
+  },
+  {
+    "name": "Ravi Menon",
+    "headline": "Solutions architect at Vantage Cloud; ex-platform engineer",
+    "url": "https://www.linkedin.com/in/ravi-menon-demo",
+    "role": "hiring",
+    "statement": "Hiring platform engineers and an ML engineer for Vantage Cloud's LLM inference team; happy to talk about running inference on Kubernetes.",
+    "summary": "Architect bridging infrastructure teams and ML teams on cloud migrations.",
+    "building": "Reference architectures for running LLM inference on Kubernetes.",
+    "technologies": [
+      "kubernetes",
+      "terraform",
+      "python",
+      "pytorch",
+      "vllm",
+      "prometheus"
+    ],
+    "interests": [
+      "platform engineering",
+      "llm evaluation",
+      "observability",
+      "fintech"
+    ],
+    "can_offer": [
+      "infrastructure",
+      "kubernetes",
+      "machine learning",
+      "solution architecture"
+    ],
+    "looking_for": [
+      "platform engineer",
+      "ml engineer",
+      "go-to-market",
+      "technical writing"
+    ],
+    "companies": [
+      "Vantage Cloud",
+      "Helixgrid"
+    ],
+    "schools": [
+      "BITS Pilani"
+    ]
+  }
+]

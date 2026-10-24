@@ -1,0 +1,847 @@
+[
+  {
+    "name": "Marcus Oyelaran",
+    "headline": "Microsoft 365 and Exchange administrator at Halcyon Health",
+    "url": "https://www.linkedin.com/in/marcus-oyelaran-demo",
+    "role": "connecting",
+    "statement": "Want to meet people automating Microsoft 365 with Python and anyone who has finished an Exchange hybrid migration.",
+    "summary": "Runs identity, mail and endpoints for a 4,000-seat hospital group that is finally leaving on-premises Exchange.",
+    "building": "A PowerShell toolkit that audits hybrid Exchange mail flow before cut-over.",
+    "technologies": [
+      "exchange online",
+      "powershell",
+      "entra id",
+      "intune",
+      "azure",
+      "windows server"
+    ],
+    "interests": [
+      "identity",
+      "endpoint management",
+      "healthcare it"
+    ],
+    "can_offer": [
+      "microsoft 365",
+      "identity",
+      "windows administration",
+      "migrations"
+    ],
+    "looking_for": [
+      "python scripting",
+      "automation",
+      "security"
+    ],
+    "companies": [
+      "Halcyon Health",
+      "Meridian Retail"
+    ],
+    "schools": [
+      "University of Manchester"
+    ]
+  },
+  {
+    "name": "Chloé Dubois",
+    "headline": "Cloud FinOps analyst at Meridian Retail",
+    "url": "https://www.linkedin.com/in/chloe-dubois-demo",
+    "role": "connecting",
+    "statement": "Here to talk cloud cost with engineers; looking for a data engineer to help turn billing exports into a model.",
+    "summary": "Turns cloud bills into decisions: reservations, right-sizing and the tagging rules that make cost explainable.",
+    "building": "An open cost model that predicts the Azure bill from Terraform plans.",
+    "technologies": [
+      "azure",
+      "terraform",
+      "kusto",
+      "power bi",
+      "sql",
+      "python"
+    ],
+    "interests": [
+      "finops",
+      "cloud cost",
+      "public data"
+    ],
+    "can_offer": [
+      "finops",
+      "cost modelling",
+      "data analysis"
+    ],
+    "looking_for": [
+      "data engineering",
+      "backend engineering"
+    ],
+    "companies": [
+      "Meridian Retail"
+    ],
+    "schools": [
+      "HEC Paris"
+    ]
+  },
+  {
+    "name": "Jonas Weber",
+    "headline": "Platform security engineer at Fjordline, PKI and certificate automation",
+    "url": "https://www.linkedin.com/in/jonas-weber-demo",
+    "role": "connecting",
+    "statement": "Looking for people running short-lived certificates in production and a technical writer for an open-source issuer.",
+    "summary": "Owns the internal CA and certificate rotation for a few hundred services; believes expiry should never page anyone.",
+    "building": "A cert-manager issuer for short-lived workload certificates with automatic rollback.",
+    "technologies": [
+      "cert-manager",
+      "step-ca",
+      "go",
+      "kubernetes",
+      "vault",
+      "openssl"
+    ],
+    "interests": [
+      "pki",
+      "zero trust",
+      "open source"
+    ],
+    "can_offer": [
+      "security",
+      "pki",
+      "kubernetes"
+    ],
+    "looking_for": [
+      "frontend engineering",
+      "technical writing"
+    ],
+    "companies": [
+      "Fjordline",
+      "Vantage Cloud"
+    ],
+    "schools": [
+      "TU Berlin"
+    ]
+  },
+  {
+    "name": "Aisha Rahman",
+    "headline": "Solutions engineer at Verdant Logistics, retrieval on AWS Bedrock",
+    "url": "https://www.linkedin.com/in/aisha-rahman-demo",
+    "role": "connecting",
+    "statement": "Want to swap retrieval war stories and find a designer for a document QA tool.",
+    "summary": "Builds retrieval pipelines over shipping contracts and customs paperwork; spends most days on chunking and evals.",
+    "building": "A document QA service for freight contracts with tables that survive chunking.",
+    "technologies": [
+      "aws",
+      "bedrock",
+      "python",
+      "langchain",
+      "opensearch",
+      "lambda"
+    ],
+    "interests": [
+      "retrieval",
+      "llm evaluation",
+      "logistics"
+    ],
+    "can_offer": [
+      "llm engineering",
+      "aws",
+      "solution architecture"
+    ],
+    "looking_for": [
+      "product design",
+      "data engineering"
+    ],
+    "companies": [
+      "Verdant Logistics",
+      "Northwind Analytics"
+    ],
+    "schools": [
+      "University of Dhaka"
+    ]
+  },
+  {
+    "name": "Sebastián Cruz",
+    "headline": "Developer advocate and technical writer at Orbit Labs",
+    "url": "https://www.linkedin.com/in/sebastian-cruz-demo",
+    "role": "open_to_work",
+    "statement": "Open to developer advocate or technical writing roles at infrastructure or ML companies.",
+    "summary": "Writes the docs, tutorials and launch posts for developer-facing products; has shipped three docs sites from scratch.",
+    "building": "A guide to documenting LLM APIs that change every week.",
+    "technologies": [
+      "markdown",
+      "docusaurus",
+      "python",
+      "javascript",
+      "openapi"
+    ],
+    "interests": [
+      "developer tools",
+      "open source",
+      "community"
+    ],
+    "can_offer": [
+      "technical writing",
+      "developer relations",
+      "copywriting"
+    ],
+    "looking_for": [
+      "developer advocate",
+      "technical writer",
+      "developer relations"
+    ],
+    "companies": [
+      "Orbit Labs",
+      "Fernwood"
+    ],
+    "schools": [
+      "Universidad de Chile"
+    ]
+  },
+  {
+    "name": "Yuki Tanaka",
+    "headline": "Android engineer at Nimbus Maps",
+    "url": "https://www.linkedin.com/in/yuki-tanaka-demo",
+    "role": "connecting",
+    "statement": "Here to meet backend engineers and designers who care about offline-first mobile apps.",
+    "summary": "Android engineer who cares about offline maps, battery life and screen readers.",
+    "building": "An offline hiking map with on-device trail recognition.",
+    "technologies": [
+      "kotlin",
+      "jetpack compose",
+      "android",
+      "tensorflow lite",
+      "sqlite"
+    ],
+    "interests": [
+      "on-device ml",
+      "maps",
+      "accessibility"
+    ],
+    "can_offer": [
+      "mobile development",
+      "android",
+      "accessibility audits"
+    ],
+    "looking_for": [
+      "backend engineering",
+      "product design"
+    ],
+    "companies": [
+      "Nimbus Maps"
+    ],
+    "schools": [
+      "Kyoto University"
+    ]
+  },
+  {
+    "name": "Fatima El-Sayed",
+    "headline": "Founder at Relaykit; former product manager at Brightline Pay",
+    "url": "https://www.linkedin.com/in/fatima-el-sayed-demo",
+    "role": "founder",
+    "statement": "Relaykit builds approval-gated agents for small lenders. Raising a pre-seed round and looking for a security-minded engineer who can take us to Kubernetes before a SOC 2 review.",
+    "summary": "Second-time founder building agents for back-office finance teams; strong on product, thin on infrastructure.",
+    "building": "Relaykit, agents that reconcile ledgers for small lenders under human sign-off.",
+    "technologies": [
+      "python",
+      "openai api",
+      "mcp",
+      "postgresql",
+      "next.js"
+    ],
+    "interests": [
+      "ai agents",
+      "fintech",
+      "regulated products"
+    ],
+    "can_offer": [
+      "product management",
+      "customer discovery",
+      "llm engineering"
+    ],
+    "looking_for": [
+      "security",
+      "kubernetes",
+      "funding",
+      "fundraising"
+    ],
+    "companies": [
+      "Relaykit",
+      "Brightline Pay"
+    ],
+    "schools": [
+      "American University in Cairo"
+    ],
+    "project": {
+      "description": "Relaykit lets back-office teams at small lenders hand reconciliation and exception handling to an agent that proposes journal entries and waits for a human to approve. We have two design partners on a pilot. The agent runs as a single Python process on one VM with the OpenAI key in an env file, and the partners' auditors are starting to ask who the agent is, what it may touch, and how we prove what it did. We need to pass a SOC 2 readiness review by January and we have no one on the team who has run production infrastructure.",
+      "summary": "An approval-gated reconciliation agent for small lenders that needs production infrastructure and an audit story before SOC 2 readiness.",
+      "pain_points": [
+        "no workload identity or scoped credentials for the agent",
+        "no tamper-evident audit trail of agent actions",
+        "single VM deployment with secrets in an env file",
+        "SOC 2 readiness with nobody who has done it",
+        "pilot partners asking compliance questions the team cannot answer"
+      ],
+      "needs": [
+        "security",
+        "kubernetes",
+        "identity",
+        "compliance",
+        "devops"
+      ],
+      "domains": [
+        "ai agents",
+        "fintech",
+        "ai agent security",
+        "regulated products"
+      ],
+      "connection_ideas": [
+        "A security engineer who has given workloads SPIFFE or similar identities and can scope what the agent may call.",
+        "A platform engineer who has taken a single-VM service to Kubernetes with secrets management.",
+        "Someone who has been through a SOC 2 audit at a fintech and knows which controls auditors actually test.",
+        "A payments engineer who understands double-entry ledgers and can sanity-check the journal entry model."
+      ],
+      "updated_at": 1792828800.0
+    }
+  },
+  {
+    "name": "Björn Karlsson",
+    "headline": "Site reliability engineer at Lumen Grid, multi-tenant Kubernetes",
+    "url": "https://www.linkedin.com/in/bjorn-karlsson-demo",
+    "role": "connecting",
+    "statement": "Looking for people who have hardened multi-tenant clusters and anyone doing per-tenant chargeback.",
+    "summary": "Keeps one cluster serving a dozen internal teams without them noticing each other; fluent in network policy and blame-free postmortems.",
+    "building": "Tenant cost and noisy-neighbour dashboards for shared clusters.",
+    "technologies": [
+      "kubernetes",
+      "flux",
+      "cilium",
+      "prometheus",
+      "grafana",
+      "go"
+    ],
+    "interests": [
+      "platform engineering",
+      "observability",
+      "energy"
+    ],
+    "can_offer": [
+      "devops",
+      "kubernetes",
+      "observability",
+      "incident response"
+    ],
+    "looking_for": [
+      "machine learning",
+      "technical writing"
+    ],
+    "companies": [
+      "Lumen Grid",
+      "Helixgrid"
+    ],
+    "schools": [
+      "KTH Royal Institute of Technology"
+    ],
+    "project": {
+      "description": "We are opening our internal multi-tenant cluster to two external partners next quarter. Today tenants are separated by namespaces and network policy, and every team gets the same quotas. Partners want proof that their workloads cannot see each other's traffic or secrets, finance wants a per-tenant bill, and I want to stop hand-editing quotas. I have the Flux layout and the dashboards; what I do not have is a convincing threat model or a way to generate the per-tenant cost report without a spreadsheet.",
+      "summary": "Hardening and metering a shared Kubernetes cluster before external partners are onboarded.",
+      "pain_points": [
+        "no written threat model for cross-tenant isolation",
+        "per-tenant cost report is a spreadsheet",
+        "quotas are edited by hand",
+        "partners will ask for compliance evidence"
+      ],
+      "needs": [
+        "security",
+        "finops",
+        "cost modelling",
+        "policy engines",
+        "technical writing"
+      ],
+      "domains": [
+        "platform engineering",
+        "multi-tenant",
+        "kubernetes",
+        "finops"
+      ],
+      "connection_ideas": [
+        "A security engineer who has threat-modelled multi-tenant clusters and can poke holes in the network policy story.",
+        "A FinOps person who has built per-tenant chargeback from Prometheus or billing exports.",
+        "Someone who has written admission policies with OPA or Kyverno for quota enforcement."
+      ],
+      "updated_at": 1792832400.0
+    }
+  },
+  {
+    "name": "Leila Boutros",
+    "headline": "Clinical data lead at Halcyon Health",
+    "url": "https://www.linkedin.com/in/leila-boutros-demo",
+    "role": "connecting",
+    "statement": "Want to meet backend and mobile engineers interested in FHIR and patient consent.",
+    "summary": "Clinical data lead who speaks both HL7 and statistics; spends her days getting consent and interoperability right.",
+    "building": "A FHIR-based consent ledger for sharing cardiac data with research partners.",
+    "technologies": [
+      "sql",
+      "r",
+      "python",
+      "fhir",
+      "hl7"
+    ],
+    "interests": [
+      "digital health",
+      "regulated products",
+      "public data"
+    ],
+    "can_offer": [
+      "data science",
+      "healthcare interoperability",
+      "regulatory"
+    ],
+    "looking_for": [
+      "backend engineering",
+      "mobile development"
+    ],
+    "companies": [
+      "Halcyon Health"
+    ],
+    "schools": [
+      "American University of Beirut"
+    ]
+  },
+  {
+    "name": "Dmitri Volkov",
+    "headline": "Rust engineer at Lumen Grid, energy telemetry; formerly firmware at Arclight Drones",
+    "url": "https://www.linkedin.com/in/dmitri-volkov-demo",
+    "role": "open_to_work",
+    "statement": "Open to senior Rust or systems engineering roles in energy, robotics or infrastructure.",
+    "summary": "Systems engineer who moved from drone firmware to grid telemetry; happiest below the HTTP layer.",
+    "building": "A Rust ingestion service for 50k smart-meter readings a second.",
+    "technologies": [
+      "rust",
+      "embedded",
+      "mqtt",
+      "timescaledb",
+      "kafka"
+    ],
+    "interests": [
+      "robotics",
+      "energy",
+      "open source"
+    ],
+    "can_offer": [
+      "rust",
+      "embedded systems",
+      "backend engineering"
+    ],
+    "looking_for": [
+      "senior rust engineer",
+      "systems engineer",
+      "backend engineer"
+    ],
+    "companies": [
+      "Lumen Grid",
+      "Arclight Drones"
+    ],
+    "schools": [
+      "ITMO University"
+    ]
+  },
+  {
+    "name": "Mei-Lin Chen",
+    "headline": "Product manager, developer platform at Vantage Cloud",
+    "url": "https://www.linkedin.com/in/mei-lin-chen-demo",
+    "role": "hiring",
+    "statement": "Hiring a frontend engineer and a security engineer for Vantage Cloud's developer platform team.",
+    "summary": "PM for an internal developer platform; translates between security teams and the engineers who route around them.",
+    "building": "A self-service portal where teams request scoped credentials for their agents.",
+    "technologies": [
+      "sql",
+      "figma",
+      "amplitude",
+      "jira"
+    ],
+    "interests": [
+      "developer tools",
+      "platform engineering",
+      "ai agent security"
+    ],
+    "can_offer": [
+      "product management",
+      "roadmapping",
+      "customer discovery"
+    ],
+    "looking_for": [
+      "frontend engineer",
+      "security engineer"
+    ],
+    "companies": [
+      "Vantage Cloud",
+      "Lattice Systems"
+    ],
+    "schools": [
+      "National Taiwan University"
+    ]
+  },
+  {
+    "name": "Samuel Adeyemi",
+    "headline": "Independent full-stack engineer; previously at Pebble Studio",
+    "url": "https://www.linkedin.com/in/samuel-adeyemi-demo",
+    "role": "founder",
+    "statement": "Building a multi-currency invoicing tool for West African freelancers with 120 users. Looking for a payments engineer, a designer and a first angel cheque.",
+    "summary": "Freelance full-stack engineer who ships small products fast and keeps getting pulled back into invoicing problems.",
+    "building": "An invoicing and collections tool for freelancers in West Africa.",
+    "technologies": [
+      "typescript",
+      "react",
+      "node.js",
+      "postgresql",
+      "supabase",
+      "tailwind"
+    ],
+    "interests": [
+      "freelance economy",
+      "fintech",
+      "community"
+    ],
+    "can_offer": [
+      "frontend engineering",
+      "full-stack engineering",
+      "prototyping"
+    ],
+    "looking_for": [
+      "payments",
+      "product design",
+      "marketing",
+      "funding"
+    ],
+    "companies": [
+      "Pebble Studio"
+    ],
+    "schools": [
+      "University of Lagos"
+    ],
+    "project": {
+      "description": "Freelancers in Lagos and Accra invoice clients in three currencies and chase payment over WhatsApp. I built a working invoicing tool with 120 users, but payouts still go through a manual bank transfer, FX is whatever the bank says that day, and the onboarding screens were designed by me at 2am. I want to add card and mobile-money collection, settle in the freelancer's currency, and get a designer to look at the flow before I spend money on ads.",
+      "summary": "A multi-currency invoicing tool for West African freelancers that needs payment rails, FX handling and design help.",
+      "pain_points": [
+        "payouts are manual bank transfers",
+        "no FX strategy beyond the bank's daily rate",
+        "onboarding designed without a designer",
+        "no marketing plan beyond word of mouth",
+        "card and mobile-money collection not integrated"
+      ],
+      "needs": [
+        "payments",
+        "ledger design",
+        "product design",
+        "marketing",
+        "backend engineering"
+      ],
+      "domains": [
+        "fintech",
+        "freelance economy",
+        "payments"
+      ],
+      "connection_ideas": [
+        "A payments engineer who has built a multi-currency ledger and knows where FX rounding bites.",
+        "A product designer who will review the onboarding flow and point at the three worst screens.",
+        "A growth marketer who has launched a product to freelancers or small businesses.",
+        "Another builder serving freelancers, to compare notes on acquisition."
+      ],
+      "updated_at": 1792825200.0
+    }
+  },
+  {
+    "name": "Elena Petrova",
+    "headline": "Test automation lead at Helixgrid",
+    "url": "https://www.linkedin.com/in/elena-petrova-demo",
+    "role": "hiring",
+    "statement": "Hiring two test automation engineers for Helixgrid's platform team; also want to learn how people use ML to find flaky tests.",
+    "summary": "Owns the test pyramid for a platform team: fast unit suites, honest end-to-end runs and load tests that catch regressions before customers do.",
+    "building": "A flaky-test detector that quarantines tests from CI history.",
+    "technologies": [
+      "python",
+      "pytest",
+      "playwright",
+      "k6",
+      "github actions"
+    ],
+    "interests": [
+      "developer tools",
+      "reliability",
+      "observability"
+    ],
+    "can_offer": [
+      "qa",
+      "test automation",
+      "ci/cd"
+    ],
+    "looking_for": [
+      "test automation engineer",
+      "sdet",
+      "machine learning",
+      "security"
+    ],
+    "companies": [
+      "Helixgrid"
+    ],
+    "schools": [
+      "Lund University"
+    ]
+  },
+  {
+    "name": "Omar Siddiqui",
+    "headline": "Data scientist, NLP at Verdant Logistics",
+    "url": "https://www.linkedin.com/in/omar-siddiqui-demo",
+    "role": "connecting",
+    "statement": "Want to meet frontend and infrastructure people interested in emissions estimates for freight.",
+    "summary": "Applied NLP for logistics: extracting shipment facts from emails, PDFs and the occasional fax; moonlights on emissions estimates for freight.",
+    "building": "A shipment-emissions estimator from bills of lading.",
+    "technologies": [
+      "python",
+      "spacy",
+      "huggingface",
+      "sql",
+      "dbt"
+    ],
+    "interests": [
+      "nlp",
+      "logistics",
+      "climate data"
+    ],
+    "can_offer": [
+      "machine learning",
+      "nlp",
+      "data science"
+    ],
+    "looking_for": [
+      "frontend engineering",
+      "infrastructure"
+    ],
+    "companies": [
+      "Verdant Logistics",
+      "Meridian Climate"
+    ],
+    "schools": [
+      "Lahore University of Management Sciences"
+    ]
+  },
+  {
+    "name": "Katrin Hoffmann",
+    "headline": "Angel investor; former founder of a payroll startup acquired by Brightline Pay",
+    "url": "https://www.linkedin.com/in/katrin-hoffmann-demo",
+    "role": "investor",
+    "statement": "I write pre-seed and seed cheques of 50 to 150k into fintech, digital health and climate teams in Europe, and I like founders who have shipped before raising.",
+    "summary": "Operator turned angel writing small cheques into fintech, health and climate teams; happy to be the first call about a pre-seed round.",
+    "building": "A small syndicate for European pre-seed founders.",
+    "technologies": [
+      "notion",
+      "airtable",
+      "sql"
+    ],
+    "interests": [
+      "fintech",
+      "digital health",
+      "climate data"
+    ],
+    "can_offer": [
+      "funding",
+      "fundraising",
+      "go-to-market",
+      "hiring"
+    ],
+    "looking_for": [
+      "pre-seed",
+      "seed",
+      "fintech",
+      "digital health",
+      "climate data",
+      "payments"
+    ],
+    "companies": [
+      "Brightline Pay",
+      "Meridian Climate"
+    ],
+    "schools": [
+      "ETH Zürich"
+    ]
+  },
+  {
+    "name": "Rohan Iyer",
+    "headline": "Engineering Manager at Northwind Analytics",
+    "url": "https://www.linkedin.com/in/rohan-iyer-demo",
+    "role": "hiring",
+    "statement": "Hiring senior data engineers and a data platform lead for Northwind Analytics; also happy to talk about engineering management.",
+    "summary": "Engineering manager, data platform. Previously at Orbit Labs.",
+    "building": "",
+    "technologies": [],
+    "interests": [
+      "data quality"
+    ],
+    "can_offer": [
+      "engineering management",
+      "hiring"
+    ],
+    "looking_for": [
+      "senior data engineer",
+      "data engineer",
+      "data platform lead"
+    ],
+    "companies": [
+      "Northwind Analytics",
+      "Orbit Labs"
+    ],
+    "schools": [
+      "BITS Pilani"
+    ]
+  },
+  {
+    "name": "Nkechi Obi",
+    "headline": "Partner at Forge Ventures, early-stage developer tools and AI infrastructure",
+    "url": "https://www.linkedin.com/in/nkechi-obi-demo",
+    "role": "investor",
+    "statement": "We lead pre-seed and seed rounds in developer tools, AI infrastructure and open-source companies; I am here to meet technical founders before they have a deck.",
+    "summary": "Former platform engineer turned investor; leads early rounds in infrastructure and developer-facing companies.",
+    "building": "",
+    "technologies": [
+      "kubernetes",
+      "python",
+      "sql"
+    ],
+    "interests": [
+      "developer tools",
+      "ai agents",
+      "open source",
+      "platform engineering"
+    ],
+    "can_offer": [
+      "funding",
+      "fundraising",
+      "hiring",
+      "go-to-market"
+    ],
+    "looking_for": [
+      "pre-seed",
+      "seed",
+      "developer tools",
+      "ai infrastructure",
+      "open source",
+      "ai agents"
+    ],
+    "companies": [
+      "Forge Ventures",
+      "Helixgrid"
+    ],
+    "schools": [
+      "University of Lagos"
+    ]
+  },
+  {
+    "name": "Pavel Novák",
+    "headline": "Backend engineer, Go and Kubernetes; open to work",
+    "url": "https://www.linkedin.com/in/pavel-novak-demo",
+    "role": "open_to_work",
+    "statement": "Open to senior backend or platform engineer roles; I have spent six years on Go services and Kubernetes operators and would like to join a small team shipping something real.",
+    "summary": "Backend engineer who builds Go services and Kubernetes operators; last team was dissolved in a reorg.",
+    "building": "A tiny Kubernetes operator that rotates database credentials.",
+    "technologies": [
+      "go",
+      "kubernetes",
+      "postgresql",
+      "grpc",
+      "terraform",
+      "prometheus"
+    ],
+    "interests": [
+      "platform engineering",
+      "developer tools",
+      "open source"
+    ],
+    "can_offer": [
+      "backend engineering",
+      "kubernetes",
+      "go",
+      "api design"
+    ],
+    "looking_for": [
+      "senior backend engineer",
+      "platform engineer",
+      "backend engineer"
+    ],
+    "companies": [
+      "Lattice Systems",
+      "Arclight Drones"
+    ],
+    "schools": [
+      "Czech Technical University"
+    ]
+  },
+  {
+    "name": "Imani Carter",
+    "headline": "Product designer, fintech and health; open to work",
+    "url": "https://www.linkedin.com/in/imani-carter-demo",
+    "role": "open_to_work",
+    "statement": "Looking for a senior product designer role, or a founding designer seat at a fintech or health startup that has users and no designer yet.",
+    "summary": "Product designer who has shipped onboarding and payments flows for two regulated products.",
+    "building": "",
+    "technologies": [
+      "figma",
+      "react",
+      "html",
+      "css"
+    ],
+    "interests": [
+      "fintech",
+      "digital health",
+      "accessibility"
+    ],
+    "can_offer": [
+      "product design",
+      "ux research",
+      "prototyping",
+      "frontend engineering"
+    ],
+    "looking_for": [
+      "senior product designer",
+      "founding designer",
+      "product designer"
+    ],
+    "companies": [
+      "Brightline Pay",
+      "Tidewater Health"
+    ],
+    "schools": [
+      "Howard University"
+    ]
+  },
+  {
+    "name": "Henrik Dahl",
+    "headline": "Head of Engineering at Orbit Labs",
+    "url": "https://www.linkedin.com/in/henrik-dahl-demo",
+    "role": "hiring",
+    "statement": "Hiring ML engineers with retrieval experience and a frontend engineer for Orbit Labs' evaluation product; also looking for a developer advocate.",
+    "summary": "Runs engineering at Orbit Labs; cares about hiring people who have shipped LLM features to real users.",
+    "building": "",
+    "technologies": [
+      "python",
+      "pytorch",
+      "typescript",
+      "kubernetes"
+    ],
+    "interests": [
+      "llm evaluation",
+      "retrieval",
+      "developer tools"
+    ],
+    "can_offer": [
+      "open roles",
+      "engineering management",
+      "hiring",
+      "machine learning"
+    ],
+    "looking_for": [
+      "ml engineer",
+      "frontend engineer",
+      "developer advocate"
+    ],
+    "companies": [
+      "Orbit Labs",
+      "Northwind Analytics"
+    ],
+    "schools": [
+      "Aalto University"
+    ]
+  }
+]

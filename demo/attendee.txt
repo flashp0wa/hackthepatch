@@ -1,0 +1,5 @@
+Founder & CEO at Verdigris Grid (stealth). After eight years as a power-systems engineer at Lumen Grid and Siemens Energy, I started Verdigris Grid in March 2026: software that forecasts rooftop-solar output for small utilities from satellite imagery and smart-meter data, so they stop buying balancing power they do not need. We have a working forecasting prototype in Python and two utility pilots signed in Bavaria.
+
+I am at this event for three things: an ML engineer who has shipped time-series or satellite models to production, a frontend engineer who can turn our notebooks into a dashboard that grid operators will actually open, and pre-seed investors who back climate infrastructure. We are raising a small round in Q1.
+
+Happy to share what I know about utility procurement, grid telemetry, MQTT at scale and how to get a pilot signed with a municipal utility. Skills: Python, pandas, PostGIS, MQTT, TimescaleDB, Grafana, Kubernetes. Studied electrical engineering at TU Munich. Certified Scrum Product Owner.

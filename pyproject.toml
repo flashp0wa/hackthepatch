@@ -1,0 +1,26 @@
+[project]
+name = "hackthepatch"
+version = "0.1.0"
+description = "Hackathon room matcher: LinkedIn sign-in and profile import, graph in FalkorDB, any OpenAI-compatible LLM."
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "httpx>=0.27",
+    "openai>=1.40",
+    "falkordb>=1.0",
+    "pydantic>=2.7",
+    "python-dotenv>=1.0",
+    "networkx>=3.2",
+    "itsdangerous>=2.1",
+    "python-multipart>=0.0.9",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
